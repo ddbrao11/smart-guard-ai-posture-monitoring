@@ -37,10 +37,8 @@ Pose Estimation (MoveNet / MediaPipe)
 Posture & Fall-Risk Logic
    ↓
 Alerts (Buzzer / SMS / Caregiver Notification)
+```
 
-
-**Privacy block**
-```markdown
 ## Privacy & Safety Notes
 SmartGuard is designed for edge inference where possible to reduce data exposure. Future work includes configurable data retention and opt-in logging for clinical or caregiver workflows.
 
