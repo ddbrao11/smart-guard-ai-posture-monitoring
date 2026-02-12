@@ -28,5 +28,22 @@ real-time analysis pipelines, and alert mechanisms.
 Lighting conditions, camera positioning, and user variability
 may affect detection accuracy.
 
+## System Architecture (Conceptual)
+```text
+Camera Feed
+   ↓
+Pose Estimation (MoveNet / MediaPipe)
+   ↓
+Posture & Fall-Risk Logic
+   ↓
+Alerts (Buzzer / SMS / Caregiver Notification)
+
+
+**Privacy block**
+```markdown
+## Privacy & Safety Notes
+SmartGuard is designed for edge inference where possible to reduce data exposure. Future work includes configurable data retention and opt-in logging for clinical or caregiver workflows.
+
+
 
 
