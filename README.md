@@ -4,7 +4,12 @@ Human-centered AI safety system.
 ## Research Notes
 This repository represents ongoing independent research exploration.
 Detailed methodology: [docs/methodology.md](docs/methodology.md)
-System spec: docs/system_spec.md
+- System spec: docs/system_spec.md
+- Demo (runnable stub): scripts/demo_pose_stub.py
+
+## Run the Demo (v0.1)
+```bash
+python scripts/demo_pose_stub.py  
 
 ## Research Overview
 SmartGuard explores edge-based AI systems for real-time
@@ -40,8 +45,7 @@ Posture & Fall-Risk Logic
    ↓
 Alerts (Buzzer / SMS / Caregiver Notification)
 ```
-## Demo
-Demo: scripts/demo_pose_stub.py
+
 ## Privacy & Safety Notes
 SmartGuard is designed for edge inference where possible to reduce data exposure. Future work includes configurable data retention and opt-in logging for clinical or caregiver workflows.
 
