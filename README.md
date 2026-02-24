@@ -8,7 +8,6 @@ Detailed methodology: [docs/methodology.md](docs/methodology.md)
 - Demo (runnable stub): scripts/demo_pose_stub.py
 
 ## Run the Demo (v0.1)
-```bash
 python scripts/demo_pose_stub.py  
 
 ## Research Overview
