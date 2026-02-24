@@ -4,6 +4,7 @@ Human-centered AI safety system.
 ## Research Notes
 This repository represents ongoing independent research exploration.
 Detailed methodology: [docs/methodology.md](docs/methodology.md)
+System spec: docs/system_spec.md
 
 ## Research Overview
 SmartGuard explores edge-based AI systems for real-time
